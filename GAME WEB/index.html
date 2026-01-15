@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Popular Games 2026</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <h2>Popular Games in 2026</h2>
+  <button id="themeToggle">Theme</button>
+</header>
+
+<section class="intro">
+  <h1>All About Current Games</h1>
+  <p>Discover trending games people are playing right now across different platforms.</p>
+</section>
+
+<!-- Carousel -->
+<section>
+  <h2>Top Current Games</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    Explore some of the most popular games right now.
+  </p>
+
+  <div class="carousel-container">
+    <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+    <div class="carousel-track">
+      <div class="game-card">
+        <img src="https://worldofgeek.fr/wp-content/uploads/2025/11/obtenir-twitch-drops-where-winds-meet-image.jpg" alt="Where Wind Meets">
+        <h3>Where Wind Meets</h3>
+        <p>An immersive adventure game with breathtaking landscapes and storyline.</p>
+      </div>
+      <div class="game-card">
+        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltee1c610e9be965bb/650f0339200350bf3b7cf669/Warzone.png" alt="Call of Duty Warzone">
+        <h3>Call of Duty: Warzone</h3>
+        <p>Free-to-play action shooter with intense firefights.</p>
+      </div>
+      <div class="game-card">
+        <img src="https://assetsio.gnwcdn.com/-1647001990635.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp" alt="Elden Ring">
+        <h3>Elden Ring</h3>
+        <p>Open-world action RPG known for deep exploration and challenge.</p>
+      </div>
+      <div class="game-card">
+        <img src="https://magazine.artstation.com/wp-content/uploads/2020/07/suke-valorant-launch-key-art-4_r.jpg?w=1200&h=675&crop=1" alt="Valorant">
+        <h3>Valorant</h3>
+        <p>Tactical 5v5 shooter with unique agents and precise gameplay.</p>
+      </div>
+      <div class="game-card">
+        <img src="https://all-starmagazine.com/wp-content/uploads/2025/10/MLBB-Earthquake-1.jpg" alt="Mobile Legends">
+        <h3>Mobile Legends</h3>
+        <p>Popular mobile MOBA game with fast-paced multiplayer battles.</p>
+      </div>
+      <div class="game-card">
+        <img src="https://i.pinimg.com/474x/25/16/d5/2516d5f232d2f20201a231b24a9492f9.jpg" alt="Minecraft">
+        <h3>Minecraft</h3>
+        <p>Sandbox creativity game that never goes out of style.</p>
+      </div>
+    </div>
+    <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
+  </div>
+</section>
+
+<section>
+  <h2>Gaming Topics</h2>
+  <div class="tabs">
+    <button class="active" onclick="openTab(0)">Benefits</button>
+    <button onclick="openTab(1)">Challenges</button>
+    <button onclick="openTab(2)">Future</button>
+  </div>
+  <div class="tab-content active">
+    <p>Games can develop real-world skills like strategy, teamwork, and problem solving.</p>
+  </div>
+  <div class="tab-content">
+    <p>Too much gaming without breaks may lead to eye strain, fatigue, and imbalance.</p>
+  </div>
+  <div class="tab-content">
+    <p>The future of gaming explores VR, new storytelling, and inclusive esports growth.</p>
+  </div>
+</section>
+
+<!-- FAQ Cards -->
+<section>
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-cards">
+    <div class="faq-card">
+      <h3>Can gaming improve skills?</h3>
+      <p>Yes — many games improve focus, decision-making, and coordination.</p>
+    </div>
+    <div class="faq-card">
+      <h3>What games are played professionally?</h3>
+      <p>Esports titles like Valorant, Dota 2, and League of Legends are highly competitive games.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Popular Games Info Website
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
