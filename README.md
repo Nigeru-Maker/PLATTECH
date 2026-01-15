@@ -1,9 +1,9 @@
 # Popular Games Website
 
 ## Structure
-- index.html: main page
-- css/style.css: styling
-- js/script.js: interactive features
+- GAME WEB/index.html: main page
+- GAME WEB/css/style.css: styling
+- GAME WEB/js/script.js: interactive features
 - images/: add your game images here
 
 ## How to Run
